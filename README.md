@@ -1,1 +1,1 @@
-"# lorna-shore-site" 
+this is for study purpose, all the images used are owned by Lorna Shore band
