@@ -193,6 +193,28 @@ iframe{
     height: 368px;
 }
 
+#videos div{
+    margin: 10px 0 10px 0;
+}
+
+#videos div iframe{
+    margin: 0 auto;
+    display: block;
+    width: 67%;
+    height: 720px;
+}
+
+#videos div h2 a{
+    margin-bottom: 10px;
+    color: aliceblue;
+    text-decoration: underline 0.10em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+
+#videos div h2 a:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
 h1{
     font-family: poppins;
     text-align: center;
