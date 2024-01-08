@@ -34,13 +34,16 @@ nav{
 }
 
 .vid{
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     white-space: nowrap;
     position: absolute;
     right: 0;
-    bottom: -9vh;
+    bottom: -10vh;
     z-index: -1;
+    object-fit: cover;
+    overflow: clip;
+    justify-content: center;
 }
 
 .hero{
@@ -203,7 +206,7 @@ iframe{
     margin: 0 auto;
     display: block;
     width: 70vw;
-    height: 720px;
+    height: 70vh;
 }
 
 #videos div h2 a{
