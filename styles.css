@@ -168,7 +168,6 @@ video{
 
 .sect{
     margin-top: 5vh;
-    margin-bottom: vh;
 }
 
 header{
@@ -220,6 +219,28 @@ iframe{
     text-decoration-color: rgba(255, 255, 255, 1);
 }
 
+
+#about header{
+    margin: 0;
+    padding: 4vh;
+}
+
+#about div{
+    background-image: url(https://lornashorestore.com/cdn/shop/files/LS_band6.jpg?v=1675375250&width=2400);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;    
+    margin-bottom: 10vh;
+    background-color: #000000;
+    position: relative;
+    z-index: -1;
+    opacity: 0.5;
+    filter: contrast(80%);
+    filter: brightness(50%);
+}
+
 h1{
     font-family: poppins;
     text-align: center;
@@ -236,6 +257,17 @@ h2{
     font-weight: 500;
 }
 
+p{
+    margin: 3vh 8vw 3vh 8vh;
+    font-family: asul;
+    padding: 10px;
+    text-align: justify;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+}
+
 @media (min-aspect-ratio:16/9){
     .vid{
         height: 100%;
@@ -247,6 +279,10 @@ h2{
     .vid{
         height: 100%;
         width: 100%;
+    }
+    #videos div iframe{
+        width: 100%;
+        height: 45vh;
     }
 }
 
