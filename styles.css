@@ -34,7 +34,7 @@ nav{
 }
 
 .vid{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     white-space: nowrap;
     position: absolute;
@@ -206,7 +206,7 @@ iframe{
     margin: 0 auto;
     display: block;
     width: 70vw;
-    height: 720px;
+    height: 70vh;
 }
 
 #videos div h2 a{
