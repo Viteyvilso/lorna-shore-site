@@ -12,6 +12,7 @@ html{
     color-scheme: dark;
     scroll-behavior: smooth;
     scroll-snap-align: center;
+    scroll-padding-top: 20vh;
 }
 
 body{
