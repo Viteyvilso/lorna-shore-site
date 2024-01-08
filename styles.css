@@ -195,6 +195,7 @@ iframe{
 
 #videos div{
     margin: 10px 0 75px 0;
+    text-align: center;
 }
 
 #videos div iframe{
