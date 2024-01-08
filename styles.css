@@ -194,20 +194,20 @@ iframe{
 }
 
 #videos div{
-    margin: 10px 0 10px 0;
+    margin: 10px 0 75px 0;
 }
 
 #videos div iframe{
     margin: 0 auto;
     display: block;
-    width: 67%;
+    width: 70vw;
     height: 720px;
 }
 
 #videos div h2 a{
     margin-bottom: 10px;
     color: aliceblue;
-    text-decoration: underline 0.10em rgba(255, 255, 255, 0);
+    text-decoration: underline 0.07em rgba(255, 255, 255, 0);
     transition: text-decoration-color 300ms;
 }
 
@@ -223,10 +223,12 @@ h1{
 }
 
 h2{
-    font-family: poppins;
+    margin: 10px;
+    font-family: asul;
     text-align: center;
     font-size: x-large;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
+    font-weight: 500;
 }
 
 @media (min-aspect-ratio:16/9){
