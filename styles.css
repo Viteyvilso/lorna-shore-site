@@ -153,6 +153,15 @@ video{
     margin-top: 0;
 }
 
+#listen{
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+#listen:hover{
+    opacity: 0.7;
+}
+
 .sect{
     margin-top: 5vh;
     margin-bottom: vh;
