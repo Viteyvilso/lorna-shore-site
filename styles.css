@@ -39,7 +39,7 @@ nav{
     white-space: nowrap;
     position: absolute;
     right: 0;
-    bottom: -10vh;
+    bottom: -8vh;
     z-index: -1;
     object-fit: cover;
     overflow: clip;
@@ -238,14 +238,15 @@ h2{
 
 @media (min-aspect-ratio:16/9){
     .vid{
+        height: 100%;
         width: 100%;
-        height: auto;
     }
 }
 
 @media (max-aspect-ratio:16/9){
     .vid{
-        width: auto;
         height: 100%;
+        width: 100%;
     }
 }
+
